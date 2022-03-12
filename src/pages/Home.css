@@ -26,7 +26,7 @@
   margin-right: 20px;
   font-size: 15px;
 }
-.home_headerRight > svg {
+.home_headerRight svg {
   margin-left: 15px;
 }
 .home_headerRight .MuiAvatar-root {
@@ -38,7 +38,7 @@
   margin-top: 10%;
   flex-direction: column;
 }
-.home_body > img {
+.home_body img {
   object-fit: contain;
   height: 120px;
 }
