@@ -8,6 +8,7 @@ import {
   LocalOffer,
   Room,
   MoreVert,
+  ArrowDropDown,
 } from "@material-ui/icons";
 import "./SearchPage.css";
 
@@ -56,6 +57,26 @@ const SearchPage = () => {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="searchResult_items">
+        <p className="searchResult_itemsCount">About results secondsfor</p>
+        <div className="searchResult_item">
+          <a href="/" className="searchResult_itemLink">
+            <img
+              className="searchResult_itemImage"
+              src="/images/googlelogo.png"
+              alt="Featured Visual"
+            />
+            github.com
+            <ArrowDropDown />
+          </a>
+
+          <a href="/" className="searchResult_itemTitle">
+            <h2>demo</h2>
+          </a>
+
+          <p className="searchResult_itemSnippet">demo</p>
         </div>
       </div>
     </div>

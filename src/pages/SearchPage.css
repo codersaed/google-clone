@@ -38,3 +38,45 @@
 .searchPage .search_input {
   margin: 0 0;
 }
+.searchResult_items {
+  max-width: 715px;
+  margin-top: 20px;
+  margin-left: 240px;
+  margin-bottom: 100px;
+}
+
+.searchResult_itemsCount {
+  color: #70757a;
+  font-size: 14px;
+}
+
+.searchResult_item {
+  margin: 40px 0;
+}
+
+.searchResult_itemLink {
+  display: flex;
+  align-items: center;
+  color: #202124;
+  text-decoration: none;
+}
+
+.searchResult_itemImage {
+  object-fit: contain;
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+
+.searchResult_itemTitle {
+  text-decoration: none;
+}
+
+.searchResult_itemTitle:hover {
+  text-decoration: underline;
+}
+
+.searchResult_itemTitle > h2 {
+  font-weight: 500;
+  margin: 10px 0;
+}
